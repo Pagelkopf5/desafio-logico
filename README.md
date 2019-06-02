@@ -1,1 +1,4 @@
-# desafio-logico
+# desafio logico CoBlue
+
+inicialização 
+go run logica.go
