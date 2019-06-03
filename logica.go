@@ -1,15 +1,19 @@
 package main
 
 func main() {
-	for i := 1; i <= 100; i++ {
-		if i%3 == 0 && i%5 == 0 {
-			println("CoBlue")
-		} else if i%3 == 0 {
-			println("Co")
-		} else if i%5 == 0 {
-			println("Blue")
-		} else {
-			println(i)
+	for i := 12; i <= 100; i++ {
+		x := false 
+		if i%3 == 0 {
+			x = true
+			print("Co")
+		} 
+		if i%5 == 0 {
+			x = true
+			print("Blue")
+		} 
+		if(x == false) {
+			print(i)
 		}
+		println(" ")
 	}
 }
